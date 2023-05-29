@@ -1,0 +1,78 @@
+body {
+    border-radius: 5px;
+
+    outline: solid;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 20% 0 20%;
+}
+.header {
+    
+    outline: solid;
+    outline-color: red;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.header-link {
+
+    outline: solid;
+}
+.header-link-div {
+    display: flex;
+    left: -100px;
+    margin-left: 500px;
+    outline: solid;
+    height: 90px;
+    justify-content: flex-end;
+}
+.top-box {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    outline: solid;
+    outline-color: green;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.left-side {
+    flex: 1;
+}
+.right-side {
+    flex: 1;
+    align-items: center;
+    border: 3px solid green;
+    padding-top: 75px;
+    text-align: center;
+}
+.sign-up {
+    border-radius: 4px;
+    background-color: #3882f6;
+    width: 70px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.mid-upper-box {
+    flex: auto;
+    outline: solid;
+    outline-color: blue;
+}
+
+.mid-lower-box {
+    flex: auto;
+    outline: solid;
+    outline-color: yellow;
+}
+
+.bot-box {
+    flex: auto;
+    outline: solid;
+    outline-color: pink;
+}
